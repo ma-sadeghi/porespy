@@ -2,6 +2,5 @@ numpy
 scipy
 matplotlib
 scikit-image
-scikit-learn
-scikit-fmm
 pandas
+numba
