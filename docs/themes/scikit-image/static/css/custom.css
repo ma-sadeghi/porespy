@@ -5,7 +5,7 @@ body {
     line-height: 23px;
 }
 a {
-    color: #CE5C00;
+    color: #0070C0;
 }
 li {
     line-height: 23px;
@@ -96,7 +96,7 @@ h6:hover .headerlink {
     display: inline;
 }
 .headerlink:hover {
-    color: #CE5C00;
+    color: #0070C0;
     text-decoration: none;
 }
 
