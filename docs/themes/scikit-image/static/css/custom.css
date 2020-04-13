@@ -12,6 +12,7 @@ li {
 }
 code, pre {
     font-family: monospace;
+    font-size: 12pt
 }
 input,
 button,
@@ -50,10 +51,10 @@ h6 {
 
 .logo {
     float: left;
-    margin: 20px 0 20px 22px;
+    margin: 0px 0px 0px 2px;
 }
 .logo img {
-    height: 70px;
+    height: 200px;
 }
 
 .hero {
@@ -120,22 +121,22 @@ h6:hover .headerlink {
 /* general table settings */
 table.docutils {
     margin-bottom: 10px;
-    border-color: #ccc;
+    border-color: #000000;
 }
 table.docutils td, table.docutils th {
     padding: 5px;
-    border-color: #ccc;
+    border-color: #000000;
     text-align: left;
 }
 
 .toc ul ul {
-    font-size: 13px;
+    font-size: 13pt;
     margin-right: -15px;
 }
 
 /* master content table */
 .contentstable.docutils, .contentstable.docutils td {
-    border-color: transparent;
+    border-color: #000000;
 }
 .contentstable.docutils .first {
     font-weight: bold;
@@ -147,7 +148,7 @@ table.docutils td, table.docutils th {
 .docutils .label, .docutils .badge {
     background: transparent;
     text-shadow: none;
-    font-size: 13px;
+    font-size: 12pt;
     padding: 5px;
     line-height: 20px;
     color: #333;
@@ -155,11 +156,11 @@ table.docutils td, table.docutils th {
 
 /* module summary table */
 .longtable.docutils {
-    font-size: 12px;
+    font-size: 12pt;
     margin-bottom: 30px;
 }
 .longtable.docutils, .longtable.docutils td {
-    border-color: #ccc;
+    border-color: #000000;
 }
 
 /* function and class description */
@@ -195,7 +196,7 @@ dl.class dd, dl.function dd {
     vertical-align: top;
 }
 .docutils.field-list td blockquote p {
-    font-size: 13px;
+    font-size: 12pt;
     line-height: 18px;
 }
 p.rubric {

@@ -41,7 +41,7 @@ PoreSpy is a collection of image analysis tool used to extract information
 from 3D images of porous materials (typically obtained from X-ray tomography).
 There are many packages that offer generalized image analysis tools (i.e
 Skimage and Scipy.NDimage in the Python environment, ImageJ, MatLab's Image
-Processing Toolbox), but the all require building up complex scripts or macros
+Processing Toolbox), but they all require building up complex scripts or macros
 to accomplish tasks of specific use to porous media.  The aim of PoreSpy is to
 provide a set of pre-written tools for all the common porous media
 measurements.
