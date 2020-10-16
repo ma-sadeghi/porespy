@@ -63,7 +63,7 @@ jobs:
         password: ${{ secrets.TESTPYPI_TOKEN }}
         repository_url: https://test.pypi.org/legacy/
 
-    # Not a good idea: if a non-conforming tag is push, e.g. random_tag, it
+    # Not a good idea: if a non-conforming tag is push, e.g. random_tag, it X
     # first gets deleted by cleanup-tags.yml, and then publish-to-pypi.yml gets
     # tricked and deletes the most recent tag! Ouch!
 
